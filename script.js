@@ -153,7 +153,7 @@ function startTestStep() {
     currentDesign = groupMap[groupNumber][stepNumber - 1];
     stepStartTime = new Date().toISOString(); 
 
-    const stepType = currentDesign === "combined" ? "Gemischt" : (currentDesign === "icons" ? "Icons" : "Melodisch");
+    const stepType = currentDesign === "combined" ? "Combined" : (currentDesign === "icons" ? "Icons" : "Melodic");
 
     logData.push({
         event: "Step Start",
