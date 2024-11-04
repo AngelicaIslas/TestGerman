@@ -250,7 +250,7 @@ function getNonRepeatingAlarmPair(design) {
         alarm2Category = categories[Math.floor(Math.random() * categories.length)];
     } while (alarm2Category === alarm1Category);  
 
-        //const alarm2Priority = alarm1Priority === "High" ? "Medium" : "High";
+        //const alarm2Priority = alarm1Priority === "High" ? "Medium" : "High"; // should work
     let alarm2Priority = priorities[Math.floor(Math.random() * priorities.length)];
     
     return [
